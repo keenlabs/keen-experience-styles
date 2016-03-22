@@ -14,4 +14,9 @@ Add to your `.eslintrc` file:
 }
 ```
 
+To test out any new rules, edit `examples/index.js` and run the following:
+```sh
+eslint -c lib/index.js examples/index.js
+```
+
 Additonal eslint rules can be found [here](http://eslint.org/docs/rules/).
