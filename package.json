@@ -1,14 +1,18 @@
 {
-  "name": "keen-experience-styles",
+  "name": "eslint-config-keen-io",
   "version": "0.0.0",
-  "description": "JavaScript lint files",
+  "description": "Keen IO eshint files",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "eslint": "^2.4.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^6.1.0",
+    "eslint-plugin-react": "^4.2.3"
   }
 }
