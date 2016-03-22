@@ -1,3 +1,15 @@
 # Keen Experience Styles
 
 A central place for our styles.
+
+## Installation
+```javascript
+npm install --save-dev https://github.com/keenlabs/keen-experience-styles.git
+```
+
+Add to your `.eslintrc` file:
+```javascript
+{
+  "extends": "keen-io"
+}
+```
