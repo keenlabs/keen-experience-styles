@@ -13,3 +13,5 @@ Add to your `.eslintrc` file:
   "extends": "keen-io"
 }
 ```
+
+Additonal eslint rules can be found [here](http://eslint.org/docs/rules/).
